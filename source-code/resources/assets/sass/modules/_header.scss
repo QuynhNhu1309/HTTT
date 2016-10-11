@@ -1,0 +1,81 @@
+    @media screen and (min-width: 1px) {
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 0;
+            height: 100%;
+        }
+        // Navbar center 
+        .header {
+            width: 100%;
+            position: relative;
+            text-align: left;
+            .header-block {
+                display: inline-block;
+            }
+            .logo-block {
+                width: 218px;
+                img {
+                    width: 100%;
+                }
+            }
+            .right-header-block {
+                width: 80%;
+                position: absolute;
+                bottom: 0;
+                text-align: left;
+                right: 0;
+                vertical-align: middle;
+                .search-lite {
+                    display: inline-block;
+                    width: 45%;
+                    border: 2px solid $light-red;
+                    button {
+                        border-radius: 0;
+                    }
+                    span {
+                        button {
+                            background-color: $light-red;
+                            border-color: $light-red;
+                        }
+                    }
+                    .choose-category {
+                        &:hover {
+                            background-color: #ffffff;
+                        }
+                    }
+                    .fa-search {
+                        color: #ffffff;
+                    }
+                }
+                .right-button-group {
+                    display: inline-block;
+                    right: 0;
+                    position: absolute;
+                    line-height: 36px;
+                    .item {
+                        display: inline-block;
+                        button {
+                            &:hover,
+                            &:focus {
+                                background-color: $background-color-four-button;
+                                border-color: $border-color-four-button;
+                                transition: all 0.5s;
+                            }
+                        }
+                        span {
+                            background-color: $border-sale-red;
+                            color: #ffffff;
+                            border-radius: 100%;
+                            width: 18px;
+                            font-size: 11px;
+                            line-height: 18px;
+                            text-align: center;
+                            float: right;
+                            margin-left: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }

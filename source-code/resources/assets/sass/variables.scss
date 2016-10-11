@@ -1,0 +1,65 @@
+// Body
+$body-bg: #f5f8fa;
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+// Typography
+$font-family-sans-serif: "Raleway",
+sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+// Navbar
+$navbar-default-bg: #fff;
+// Buttons
+$btn-default-color: $text-color;
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+// Panels
+$panel-default-heading-bg: #fff;
+// Font-size
+$small-text:8px;
+$regular-text:12px;
+$large-text:24px;
+$very-large-text:32px;
+// Line-height
+$small-line-height:10px;
+$regular-line-height:16px;
+$large-line-height:32px;
+$very-large-line-height:36px;
+// Scroll to top
+$scroll-to-top-btn-link:#666;
+// Banner
+$strong-red:#c9141b;
+$white:#fff;
+$light-red:#e60f1e;
+$border-red:#f62c38;
+$second-border-red:#C9141B;
+//header
+$background-color-four-button: #f8d6d5;
+$border-color-four-button:#cf9598;
+// Footer
+$light-gray:#f5f5f5;
+$footer-text:#6b6f72;
+//Product
+$border-gray:#ddd;
+$border-sale-red: #e5101d;
+$like-red: rgba(229, 16, 29, 0.7);
+$current-price:#F00;
+$old-price:#505050;
+$product-name:#666;
+$product-name-hover:#6db6fa;
+$product-icon-option:#666;
+$shop-place:#f4f4f4;
+$shop-name: #4585f4;
